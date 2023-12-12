@@ -24,7 +24,7 @@ class LoginPageFooter extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: OutlinedButton.icon(
-            icon: FaIcon(FontAwesomeIcons.google, size: 15.0),
+            icon: const FaIcon(FontAwesomeIcons.google, size: 15.0),
             onPressed: () {},
             label: Text(TTS_Register.toUpperCase()),
           ),
